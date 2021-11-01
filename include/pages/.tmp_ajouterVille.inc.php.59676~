@@ -1,0 +1,63 @@
+
+<?php
+$pdo=new Mypdo();
+$villeManager = new VilleManager($pdo);
+?>
+<h1>Ajouter une ville</h1>
+<div class="centrerBlock">
+<?php
+	if(empty($_POST['ville'])){
+?>
+	<form action="index.php?page=7" method="post">
+		<div>
+			<label class="labelC">Nom de la ville : </label>
+			<input class="champ" type="text" id="ville" name="ville" size="20" maxlength="20"/> 
+		</div>
+        <div style="margin-top: 1em;"><input type="submit" class="bouton" value="Valider"/></div>
+	</form>
+<?php
+	}
+	else
+	{	
+		$nomVille = $_POST['ville'] ;
+		$listerVille = array() ;
+		$listerVille=$villeManager->verifierExistVille($nomVille);
+		if(empty($listerVille)){
+			$retour = 0 ;
+		}
+		else{
+			$retour=-1 ;
+		}
+		if($retour!=0){ ?>        	
+			<p class="centrerp"> 
+				<img src="image/erreur.png" alt="Erreur" title="Erreur" /> 
+				<?php if($retour==-1){?>
+				La ville <?php $nomVille ;?> existe déjà 
+                <script type="text/javascript">
+               			self.setTimeout("self.location.href = 'index.php?page=7';", 1500) ;
+            	</script>
+			</p>          
+			<?php
+			}
+		}
+		else {
+			$ville = new Ville(array('vil_nom'=> $nomVille));
+			$retour=$villeManager->ajouterVille($ville);
+			if($retour==1){?>
+				<p class="centrerp"> 
+					<img src="image/valid.png" alt="Valider" title="Validation" />
+					L'insertion de <?php echo $nomVille ;?> c'est bien passée  
+				</p> 
+		<?php
+			}
+			else{ ?>
+				<p class="centrerp">
+					<img src="image/erreur.png" alt="Erreur" title="Erreur" />
+					Un problème est survenu pendant l'insertion réessayez ou contactez l'administrateur 
+				</p> 
+                
+			<?php }
+		 } 
+	}
+?>     
+</div>

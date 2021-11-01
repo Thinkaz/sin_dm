@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap);
+
+.blog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.blogbimg {
+    border-radius: 16px;
+    max-width:50%;
+}
+
+.author-avatar2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 16px 10px;
+}
+
+.blogtxt {
+    padding-top: 5%;
+    max-width:65ch;
+    font-size: 1.725rem;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.author-name {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.card-author {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+}
+
+.tupaye {
+    padding-right: 27%;
+    padding-left: 27%;
+}
+
+.payttl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 22px;
+    padding-bottom: 1%;
+}
+
+.center {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.payfdp {
+    border: none;
+    color: #000;
+    padding: 0.25rem 1rem;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    cursor: pointer;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    margin: -0.25rem -0.5rem;
+    border-radius: 7px;
+    color: #635dff;
+    background-color: transparent;
+    border: none;
+    font-size: inherit;
+    line-height: inherit;
+    -webkit-transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+    transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.payfdp:hover {
+    color: #635dff;
+    background: rgba(0, 118, 255, 0.1);
+}
+
+.StripeElement {
+    background-color: #0A090C;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+.StripeElement--webkit-autofill {
+    background-color: #0A090C !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .blogbimg {
+        border-radius: 16px;
+        max-width:100%;
+    }
+
+    .blogtxt {
+        padding-top: 10%;
+    }
+}

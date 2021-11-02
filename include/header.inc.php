@@ -1706,15 +1706,11 @@
                                 <a title="Showcase" class="jsx-4177912742 mute" href="/index.php?page=0">Accueil</a>
                                 <a title="Documentation" class="jsx-4177912742 mute" href="/index.php?page=5">Boutique</a>
                                 <a class="jsx-4177912742 mute" href="/index.php?page=13">Roadmap</a>
-                                <a class="jsx-4177912742 mute" href="/admin">Admin</a>
-                                <a class="jsx-4177912742 mute" href="/login/">Profil</a>
                             </div>
                             <div class="jsx-4177912742 links">
                                 <a title="Showcase" class="jsx-4177912742 mute" href="/index.php?page=0">Accueil</a>
                                 <a title="Documentation" class="jsx-4177912742 mute" href="/index.php?page=5">Boutique</a>
                                 <a class="jsx-4177912742 mute" href="/index.php?page=13">Roadmap</a>
-                                <a class="jsx-4177912742 mute" href="/admin">Admin</a>
-                                <a class="jsx-4177912742 mute" href="/login/">Profil</a>
                             </div>
                         </nav>
                     </div>

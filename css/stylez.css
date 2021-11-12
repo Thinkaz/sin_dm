@@ -410,6 +410,22 @@ data-styled.g268[id="sc-1sydmxd-3"] {
     white-space: break-spaces;
 }
 
+.dINbb {
+    color: #fff;
+    cursor: poPoppins;
+    margin-bottom: 0.8rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    -webkit-letter-spacing: -0.005rem;
+    -moz-letter-spacing: -0.005rem;
+    -ms-letter-spacing: -0.005rem;
+    letter-spacing: -0.005rem;
+    font-weight: 500;
+    max-width: 29.5rem;
+    white-space: break-spaces;
+}
+
 /*!sc*/
 
 .dINb:after {
@@ -946,7 +962,7 @@ data-styled.g276[id="sc-1sydmxd-11"] {
 
 .jzEryj {
     color: #fff;
-    font-family: Poppins, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1.6rem;
     line-height: 2.4rem;
     -webkit-letter-spacing: -0.001rem;

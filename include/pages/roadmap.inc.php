@@ -2,6 +2,14 @@
 	<title>SIN - Roadmap</title>
 </head>
 
+<style>
+	.tags a:hover {
+    text-shadow: none;
+    border-color: white;
+	cursor: default;
+}
+</style>
+
 <h2 class="hello road">Notre <a class="color">Roadmap.</a></h2>
 <div class="centrerBlock">
 	<?php

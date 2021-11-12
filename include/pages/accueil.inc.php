@@ -57,34 +57,35 @@
             <div class="fSVYoj">
               <div class="eSUNpH">
                 <div class="cPepMK">
-                  <h1 class="csPim">Resources</h1>
+                  <h1 class="csPim">Le plus important</h1>
                 </div>
                 <div class="eIltGo">
-                  <a href="/forrester-total-economic-impact" class="fcwSwH">
+                  <a href="?page=1" class="fcwSwH">
                     <div class="dlBBVz">
-                      <p class="gywwRT">report</p>
-                      <p class="dINb jKvnna Hey">The Total Economic Impact of Auth0</p>
+                      <p class="gywwRT">la boutique</p>
+                      <p class="dINb jKvnna Hey">Pour ne pas perdre de temps et nous faire gagner de l'argent allez là. svp.</p>
+                      <p class="dINbb">Quelques chiffres parce que ça rend bien et ça fait pro...</p>
                     </div>
                     <div>
                       <div class="dlBBVz">
                         <div class="klJiIf">
-                          <p class="jzEryj">548%</p>
-                          <p class="gPwstZ">ROI</p>
+                          <p class="jzEryj">50%</p>
+                          <p class="gPwstZ">Moins cher</p>
                         </div>
                         <div class="klJiIf">
-                          <p class="jzEryj">&lt;6mo</p>
-                          <p class="gPwstZ">Payback Time</p>
+                          <p class="jzEryj">0s</p>
+                          <p class="gPwstZ">de livraison</p>
                         </div>
                       </div>
                     </div>
                   </a>
-                  <a href="/resources/whitepapers/build-vs-buy-evaluating-identity-management" class="gIXnWb">
-                    <p class="fAeNmE">whitepaper</p><p class="yUMhd Hey">Build vs Buy: Guide to Identity Management</p>
-                    <p class="ivrJPO">6 Signs You Need to Move From DIY to an Identity Management Solution</p>
+                  <a href="?page=2" class="gIXnWb">
+                    <p class="fAeNmE">roadmap</p><p class="yUMhd Hey">Notre Roadmap</p>
+                    <p class="ivrJPO">Une Roadmap c'est quoi ? Une feuille de route juste pour vous montrer le futur du site (jamais y'en a)</p>
                   </a>
-                  <a href="/resources/videos/platform-introduction-video-2020" class="sc-1sydmxd-6 uPbXm">
-                    <p class="cZytZt">video</p><p class="yUMhd Hey">The Auth0 Product Tour</p>
-                    <p class="ivrJPO">A short tour through Auth0’s extensibility and uses for B2B, B2C, and B2E.</p>
+                  <a href="https://cdpn.io/jcoulterdesign/fullpage/MWeZWxQ" class="sc-1sydmxd-6 uPbXm">
+                    <p class="cZytZt">Le passe temps</p><p class="yUMhd Hey">Le truc drôle</p>
+                    <p class="ivrJPO">En gros je me baladais sur un super site et je suis tombé sur cette pépite (il faut aller voir)</p>
                   </a>
                 </div>
               </div>

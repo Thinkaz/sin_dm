@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,14 +7,14 @@
     <meta name="msapplication-TileColor" content="#000000" />
     <meta name="theme-color" content="#000" />
     <meta name="viewport" content="width=device-width" />
-    <meta charSet="utf-8" />
-    <link rel="stylesheet" href="../css/stylzes.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" href="../css/stylez.css" />
     <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../css/stylze.css" />
     <link rel="stylesheet" href="../css/whys.css" />
     <link rel="stylesheet" href="../css/blog.css" />
     <link rel="stylesheet" href="../css/achat.css" />
-    <link rel="stylesheet" href="../css/roadmap.css" />
+    <link rel="stylesheet" href="../css/roadmaps.css" />
     <style id="__jsx-3a64d1ae4f0f7fab">
         .banner.jsx-3a64d1ae4f0f7fab {
             width: 100%;
@@ -1695,22 +1694,22 @@
     </style>
 </head>
 
+<script type="text/javascript" src="/js/anticonnard.js"></script>
 <body>
     <div id="osef">
                 <header class="jsx-3610867073 sticky">
-                    <div class="jsx-2308493473 "><a tabindex="0" href="#reach-skip-nav" data-reach-skip-link="true">Skip
-                            to content</a>
-                        <h1 aria-hidden="true" class="jsx-4177912742 visually-hidden">Next.js</h1>
+                    <div class="jsx-2308493473 ">
+                        <h1 aria-hidden="true" class="jsx-4177912742 visually-hidden">SIN</h1>
                         <nav class="jsx-4177912742 f-reset">
                             <div class="jsx-4177912742 mobile-top">
-                                <a title="Showcase" class="jsx-4177912742 mute" href="/index.php?page=0">Accueil</a>
-                                <a title="Documentation" class="jsx-4177912742 mute" href="/index.php?page=5">Boutique</a>
-                                <a class="jsx-4177912742 mute" href="/index.php?page=13">Roadmap</a>
+                                <a class="jsx-4177912742 mute" href="/index.php/?page=0">Accueil</a>
+                                <a class="jsx-4177912742 mute" href="/index.php/?page=1">Boutique</a>
+                                <a class="jsx-4177912742 mute" href="/index.php/?page=2">Roadmap</a>
                             </div>
                             <div class="jsx-4177912742 links">
-                                <a title="Showcase" class="jsx-4177912742 mute" href="/index.php?page=0">Accueil</a>
-                                <a title="Documentation" class="jsx-4177912742 mute" href="/index.php?page=5">Boutique</a>
-                                <a class="jsx-4177912742 mute" href="/index.php?page=13">Roadmap</a>
+                                <a class="jsx-4177912742 mute" href="/index.php/?page=0">Accueil</a>
+                                <a class="jsx-4177912742 mute" href="/index.php/?page=1">Boutique</a>
+                                <a class="jsx-4177912742 mute" href="/index.php/?page=2">Roadmap</a>
                             </div>
                         </nav>
                     </div>

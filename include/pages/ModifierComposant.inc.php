@@ -24,7 +24,7 @@
                 foreach($composant as $composant){  ?>
                     <tr>
                         <td> 
-                        	<a href="index.php?page=6&amp;id=<?php print_r($composant->getCompId());?>" title="Afficher détails de <?php print_r($composant->getCompNom()); ?>">
+                        	<a href="index.php?page=3&amp;id=<?php print_r($composant->getCompId());?>" title="Afficher détails de <?php print_r($composant->getCompNom()); ?>">
                            		<?php print_r($composant->getCompId());?> 
                             </a> 
                         </td>
@@ -39,13 +39,13 @@
 		
 	<?php
 	}
-	else if(!empty($_GET['id']) and empty($_POST['nomComp']) and empty($_POST['prixComp'])and empty($_POST['descriptionComp']) and empty($_POST['typeComp']) and empty($_POST['entrepotComp'])){
+	else if(!empty($_GET['id']) and empty($_POST['compNom']) and empty($_POST['compPrix'])and empty($_POST['descriptionComp']) and empty($_POST['typeComp']) and empty($_POST['entrepotComp'])){
 		$composantManager = new ComposantManager($pdo);
 		$compId=$_GET['id'];
 		$composant = new Composant(array('comp_id' => $compId));
 		$compMod=new Composant($composantManager->getOtherComposantWithId($composant)); ?>
 		
-			<form action="index.php?page=6&amp;id=<?php print_r($composant->getCompId());?>" method="post">
+			<form action="index.php?page=3&amp;id=<?php print_r($composant->getCompId());?>" method="post">
 				<table>
 					<tr>
 						<td class="gauche"><label class="labelC">Nom* : </label></td>

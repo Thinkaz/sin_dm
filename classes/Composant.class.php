@@ -69,23 +69,6 @@ class Composant{
 	public function getCompDesc()	{
 		return $this->compDesc;
 	}
-		//Marque
-	public function setCompMarque($marque)	{
-		$this->compMarque = $marque;
-	}
-			
-	public function getCompMarque()	{
-		return $this->compMarque;
-	}
-
-		//Marque
-	public function setCompImage($image)	{
-		$this->compImage = $image;
-	}
-					
-	public function getCompImage()	{
-		return $this->compImage;
-	}
 
 			//Type ID 
 	public function setCompType($type)	{
@@ -104,5 +87,23 @@ class Composant{
 	
 	public function getCompEnt()	{
 		return $this->compEnt;
+	}
+
+	//Marque
+	public function setCompMarque($marque)	{
+		$this->compMarque = $marque;
+	}
+					
+	public function getCompMarque()	{
+		return $this->compMarque;
+	}
+		
+	//Marque
+	public function setCompImage($image)	{
+		$this->compImage = $image;
+	}
+							
+	public function getCompImage()	{
+		return $this->compImage;
 	}
 }

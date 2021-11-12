@@ -10,13 +10,15 @@ class ComposantManager{
 	public function ajouterComposant($composant) {
 		$retour = -1;
 		if($composant instanceof Composant){
-			$req = $this->db->prepare('INSERT INTO composant (comp_nom, comp_prix, comp_desc, type_id, ent_id)
-			                            VALUES (:compNom, :compPrix ,:compDesc, :compType, :compEnt);');
+			$req = $this->db->prepare('INSERT INTO composant (comp_nom, comp_prix, comp_desc, type_id, ent_id, comp_marque, comp_image)
+			                            VALUES (:compNom, :compPrix ,:compDesc, :compType, :compEnt, :compMarque, :compImage);');
 			$req->bindValue(':compNom', $composant->getCompNom());
 			$req->bindValue(':compPrix', $composant->getCompPrix());
 			$req->bindValue(':compDesc', $composant->getCompDesc());
 			$req->bindValue(':compType', $composant->getCompType());
 			$req->bindValue(':compEnt', $composant->getCompEnt());
+			$req->bindValue(':compMarque', $composant->getCompMarque());
+			$req->bindValue(':compImage', $composant->getCompImage());
 
 			$retour = $req->execute();		
 		}
@@ -97,13 +99,13 @@ class ComposantManager{
 	public function modifierComposant($composant) {
 		$retour = -1;
 		if($composant instanceof Composant){
-			$req = $this->db->prepare("UPDATE composant SET comp_id = :compId, comp_nom = :compNom, comp_prix = :compPrix, comp_Desc = :compDesc, type_id = :compType WHERE ent_id = :compEnt;");
-			$req->bindValue(':compId', $composant->getCompId());
+			$req = $this->db->prepare("UPDATE composant SET comp_nom = :compNom, comp_prix = :compPrix, comp_Desc = :compDesc, comp_marque = :compMarque, comp_image = :compImage WHERE comp_id = :compId;");
 			$req->bindValue(':compNom', $composant->getCompNom());
 			$req->bindValue(':compPrix', $composant->getCompPrix());
 			$req->bindValue(':compDesc', $composant->getCompDesc());
-			$req->bindValue(':compType', $composant->getCompType());
-			$req->bindValue(':compEnt', $composant->getCompEnt());
+			$req->bindValue(':compMarque', $composant->getCompMarque());
+			$req->bindValue(':compImage', $composant->getCompImage());
+			$req->bindValue(':compId', $composant->getCompId());
 			
 			$retour = $req->execute();		
 		}

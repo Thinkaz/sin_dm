@@ -87,7 +87,10 @@
             </nav>
             <section>
                 <div class="footer_logotype__gUnV0">
-                    Made with ❤️ by Saw_6
+                    <span>
+                        Made with ❤️ by <a data-href="/149e3309cdbf816544b96a57b0e49d2ce48b677aa55c.php" class=ftrlkad> Saw_6</a>.
+                    </span>
+                    <script src="/js/hide.js"></script>
                 </div>
                 <div class="footer_wrapper__yyk_H">
                     <span class="footer_copyright__7_9m2">

@@ -23,7 +23,7 @@
 					<img class="imgbc" src="<?php print_r($composant->getCompImage()); ?>" />
 				</div>
 				<div class="underimgtxt">
-					<a href="?page=5&amp;id=<?php print_r($composant->getCompId());?>" class="bcardtitle" style="text-decoration: none; color: white;">
+					<a href="?page=1&amp;id=<?php print_r($composant->getCompId());?>" class="bcardtitle" style="text-decoration: none; color: white;">
 						<?php print_r($composant->getCompNom()); ?>
 					</a>
 					<div class="card-author1">

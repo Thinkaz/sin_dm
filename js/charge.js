@@ -1,5 +1,5 @@
 // Stripe API Key
-var stripe = Stripe('pk_live_51JakJGFF1DXyAy7RvLNj4nrw0w5Pjkh79dM3m917ftBg58esCPZ9LuIEToN9eZYtcVeA4wlLXdwKPhcmIrPW621E00WCLkQRmf');
+var stripe = Stripe('');
 var elements = stripe.elements();
 // Custom Styling
 var style = {
